@@ -230,6 +230,7 @@ flex-wrap: wrap;
 /* .Item1 span {
 text-decoration: line-through;
 } */
+
 .Item1 img {
 height: 80%;
 width: 30%;
@@ -239,6 +240,46 @@ height: 30px;
 width: 30px;
 padding-right: 8px;
 }
+
+/* second-block-left-side-bar */
+
+.second-block-left-side-bar{
+  margin-top: 10px;
+  border: 1px solid lightblue;
+border-radius: 10px;
+box-shadow: 0px 0px 10px lightblue ;
+}
+.second-block-left-side-bar h1{
+  font-size: 1rem;
+padding: 10px;
+}
+.leftSideBarItem2{
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftSideBarItem2 .item2 img{
+width: 40px;
+height: 40px;
+padding: 1rem;
+}
+
+.about{
+  width: 100%;
+
+}
+.about p span{
+  color: #ffadad;
+  font-weight: 500;
+  }
+  .about b {
+  color: lightgrey;
+  text-decoration: line-through;
+  }
+
+
+
 /* 3rd section */
 .section3{
 /* min-width: 90%;
@@ -351,26 +392,32 @@ min-width: 90%;
   width: 90%;
 }
 .countDown{
+  width: 70%;
+  padding-top: 1%;
 display: flex;
-justify-content: space-between;
-/* gap: 4rem; */
+justify-content: space-around;
 }
 .countDown li{
 background-color: lightgrey;
-width: 20%;
-border-radius: 7%;
+width: 15%;
+border-radius: 10px;
 text-align: center;
 padding: 0.5rem;
 list-style: none;
 }
 /* list 2 */
 .newProduct{
+  width: 90%;
+  margin-left: 5%;
 margin-top: 2rem;
+margin-bottom: 2rem;
 padding: 1rem;
 border-bottom: 1px solid lightgrey;
-min-width: 100%;
+/* min-width: 100%; */
 }
 .catalogue2{
+  width: 95%;
+  margin-left: 5%;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -379,10 +426,12 @@ min-height: max-content;
 padding-bottom: 2rem;
 }
 .attaire{
-/* margin: 0.5rem; */
 border: 1px solid lightgrey;
-max-width: 25%;
+max-width: 20%;
+margin-bottom: 1rem;
 padding: 1rem;
+
+border-radius: 5px;
 }
 .attaire .newImage{
 align-self: center;
